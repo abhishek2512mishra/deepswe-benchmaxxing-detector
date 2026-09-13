@@ -1,6 +1,7 @@
 # Benchmaxxing Forensic Detector & Test Harness Hardening Scanner
 
 [![EyesTech Systems Research](https://img.shields.io/badge/EyesTech-Systems_Research-002050?style=flat-square&logo=gitbook)](https://eyestech.in/is-deepswe-v1-1-cracked-benchmark-audit/)
+[![PyPI version](https://img.shields.io/pypi/v/benchmaxxing-detector.svg?style=flat-square&color=2563EB)](https://pypi.org/project/benchmaxxing-detector/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg?style=flat-square)](LICENSE)
 [![SWE-bench Hardening](https://img.shields.io/badge/SWE--bench-Clean--Room_Audit-302D55.svg?style=flat-square)](#)
@@ -33,7 +34,16 @@ Our audit of over 500 benchmark evaluation trajectories revealed that claimed >7
 
 ## 🚀 Quickstart
 
-Scan any evaluation sandbox, repository fixture, or agent working tree:
+### Option 1: Install from PyPI (Recommended)
+
+```bash
+pip install benchmaxxing-detector
+
+# Run scan on any benchmark directory or container
+benchmaxxing-detector --target /path/to/evaluation/sandbox --strict
+```
+
+### Option 2: Clone from GitHub
 
 ```bash
 git clone https://github.com/abhishek2512mishra/deepswe-benchmaxxing-detector.git
