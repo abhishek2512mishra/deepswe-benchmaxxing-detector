@@ -36,7 +36,7 @@ Our audit of over 500 benchmark evaluation trajectories revealed that claimed >7
 Scan any evaluation sandbox, repository fixture, or agent working tree:
 
 ```bash
-git clone https://github.com/eyestech-labs/deepswe-benchmaxxing-detector.git
+git clone https://github.com/abhishek2512mishra/deepswe-benchmaxxing-detector.git
 cd deepswe-benchmaxxing-detector
 python benchmaxxing_detector.py /path/to/evaluation/sandbox
 ```
